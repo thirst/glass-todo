@@ -1,0 +1,2 @@
+module Glass::NotificationsHelper
+end
