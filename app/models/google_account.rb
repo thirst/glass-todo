@@ -18,7 +18,7 @@ class GoogleAccount < ActiveRecord::Base
 
   def subscribe_to_google_notifications
     subscription = Glass::Subscription.new google_account: self
-    subscription.insert
+    subscription.insert(callback_url: "https://glass-test.herokuapp.com/callback")
   end
 
   private

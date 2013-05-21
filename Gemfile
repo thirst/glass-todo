@@ -18,6 +18,6 @@ end
 
 gem 'jquery-rails'
 gem "google-api-client"
-gem "glass-rails"
+gem "glass-rails", "0.0.4"
 gem "devise"
 gem "pg"
